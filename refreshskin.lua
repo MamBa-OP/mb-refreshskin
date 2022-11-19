@@ -1,4 +1,4 @@
-RegisterCommand('reloadskin', function()
+RegisterCommand('refreshskin', function()
 	QBCore.Functions.TriggerCallback('qb-clothing:getPlayerSkin', function(appearance)
 		exports['qb-clothing']:setPlayerAppearance(appearance)
 	end)
@@ -16,7 +16,7 @@ end)
 ----if you are using fivem-appearance then use this
 
 --[[
-RegisterCommand('reloadskin', function()
+RegisterCommand('refreshskin', function()
 	QBCore.Functions.TriggerCallback('fivem-appearance:getPlayerSkin', function(appearance)
 		exports['fivem-appearance']:setPlayerAppearance(appearance)
 	end)
